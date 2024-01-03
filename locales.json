@@ -10,17 +10,6 @@
     "haveacc": "Уже маєте обліковий запис?"
   },
     
- "it": {
-     "welcome": "Benvenuto su Ressenger",
-     "name": "Inserisci il tuo nome:",
-     "email": "Inserisci il tuo indirizzo email:",
-     "nick": "Inserisci il tuo nickname:",
-     "pass": "Inserisci la tua password:",
-     "cpass": "Conferma la password:",
-     "signup": "Registrati",
-     "haveacc": "Hai già un account?"
- },
-    
   "en": {
     "welcome": "Welcome to Ressenger",
     "name": "Enter your username:",
@@ -31,6 +20,17 @@
     "signup": "Sign Up",
     "haveacc": "Already have an account?"
   },
+
+   "it": {
+     "welcome": "Benvenuto su Ressenger",
+     "name": "Inserisci il tuo nome:",
+     "email": "Inserisci il tuo indirizzo email:",
+     "nick": "Inserisci il tuo nickname:",
+     "pass": "Inserisci la tua password:",
+     "cpass": "Conferma la password:",
+     "signup": "Registrati",
+     "haveacc": "Hai già un account?"
+ },
     
   "tr": {
     "welcome": "Ressenger'a hoş geldiniz",
