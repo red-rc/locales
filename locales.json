@@ -1,0 +1,23 @@
+{
+  "uk": {
+    "welcome": "Ласкаво просимо до Ressenger",
+    "name": "Введіть ваше ім'я:",
+    "email": "Введіть вашу ел. адресу:",
+    "nick": "Введіть ваш нік:",
+    "pass": "Введіть ваш пароль:",
+    "cpass": "Підтвердіть пароль:",
+    "signup": "Зареєструватися",
+    "haveacc": "Уже маєте обліковий запис?"
+  },
+    
+  "en": {
+    "welcome": "Welcome to Ressenger",
+    "name": "Enter your username:",
+    "email": "Enter your e-mail:",
+    "nick": "Enter your nickname:",
+    "pass": "Enter your password:",
+    "cpass": "Confirm password:",
+    "signup": "Sign Up",
+    "haveacc": "Already have an account?"
+  }
+}
