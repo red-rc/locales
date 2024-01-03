@@ -19,5 +19,106 @@
     "cpass": "Confirm password:",
     "signup": "Sign Up",
     "haveacc": "Already have an account?"
+  },
+    
+  "tr": {
+    "welcome": "Ressenger'a hoş geldiniz",
+    "name": "Adınızı girin:",
+    "email": "E-postanızı girin:",
+    "nick": "Takma adınızı girin:",
+    "pass": "Şifrenizi girin:",
+    "cpass": "Şifreyi onaylayın:",
+    "signup": "Kaydol",
+    "haveacc": "Zaten bir hesabınız mı var?"
+  },
+  "ar": {
+    "welcome": "مرحبًا بك في Ressenger",
+    "name": "أدخل اسمك:",
+    "email": "أدخل بريدك الإلكتروني:",
+    "nick": "أدخل اسمك المستعار:",
+    "pass": "أدخل كلمة المرور الخاصة بك:",
+    "cpass": "تأكيد كلمة المرور:",
+    "signup": "سجل",
+    "haveacc": "هل لديك حساب بالفعل؟"
+  },
+  "es": {
+    "welcome": "Bienvenido a Ressenger",
+    "name": "Ingrese su nombre de usuario:",
+    "email": "Ingrese su correo electrónico:",
+    "nick": "Ingrese su apodo:",
+    "pass": "Ingrese su contraseña:",
+    "cpass": "Confirmar contraseña:",
+    "signup": "Registrarse",
+    "haveacc": "¿Ya tienes una cuenta?"
+  },
+  "pt": {
+    "welcome": "Bem-vindo ao Ressenger",
+    "name": "Digite seu nome de usuário:",
+    "email": "Digite seu e-mail:",
+    "nick": "Digite seu apelido:",
+    "pass": "Digite sua senha:",
+    "cpass": "Confirmar senha:",
+    "signup": "Registrar-se",
+    "haveacc": "Já tem uma conta?"
+  },
+  "fr": {
+    "welcome": "Bienvenue sur Ressenger",
+    "name": "Entrez votre nom d'utilisateur :",
+    "email": "Entrez votre adresse e-mail :",
+    "nick": "Entrez votre pseudonyme :",
+    "pass": "Entrez votre mot de passe :",
+    "cpass": "Confirmer le mot de passe :",
+    "signup": "S'inscrire",
+    "haveacc": "Vous avez déjà un compte ?"
+  },
+  "de": {
+    "welcome": "Willkommen bei Ressenger",
+    "name": "Geben Sie Ihren Benutzernamen ein:",
+    "email": "Geben Sie Ihre E-Mail-Adresse ein:",
+    "nick": "Geben Sie Ihren Spitznamen ein:",
+    "pass": "Geben Sie Ihr Passwort ein:",
+    "cpass": "Passwort bestätigen:",
+    "signup": "Registrieren",
+    "haveacc": "Haben Sie bereits ein Konto?"
+  },
+  "pl": {
+    "welcome": "Witaj w Ressenger",
+    "name": "Podaj swoją nazwę użytkownika:",
+    "email": "Podaj swój adres e-mail:",
+    "nick": "Podaj swój pseudonim:",
+    "pass": "Podaj swoje hasło:",
+    "cpass": "Potwierdź hasło:",
+    "signup": "Zarejestruj się",
+    "haveacc": "Masz już konto?"
+  },
+  "ko": {
+    "welcome": "Ressenger에 오신 것을 환영합니다",
+    "name": "사용자 이름을 입력하세요:",
+    "email": "이메일을 입력하세요:",
+    "nick": "닉네임을 입력하세요:",
+    "pass": "비밀번호를 입력하세요:",
+    "cpass": "비밀번호 확인:",
+    "signup": "가입하기",
+    "haveacc": "이미 계정이 있으신가요?"
+  },
+  "zh": {
+    "welcome": "欢迎来到 Ressenger",
+    "name": "输入您的用户名：",
+    "email": "输入您的电子邮件：",
+    "nick": "输入您的昵称：",
+    "pass": "输入您的密码：",
+    "cpass": "确认密码：",
+    "signup": "注册",
+    "haveacc": "已经有账号了吗？"
+  },
+  "ja": {
+    "welcome": "Ressengerへようこそ",
+    "name": "ユーザー名を入力してください：",
+    "email": "メールアドレスを入力してください：",
+    "nick": "ニックネームを入力してください：",
+    "pass": "パスワードを入力してください：",
+    "cpass": "パスワードを確認：",
+    "signup": "サインアップ",
+    "haveacc": "すでにアカウントをお持ちですか？"
   }
 }
