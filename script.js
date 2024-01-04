@@ -65,8 +65,8 @@ document.getElementById('passwordimage').onclick = function() {
 }
     
     async function createAccount() {
-            const response = await fetch('https://red-rc.github.io/locales/accounts.json');
-            const accountsData = await response.json();
+            let response = await fetch('https://red-rc.github.io/locales/accounts.json');
+            let accountsData = await response.json();
 
             accountsData.nick = {
                 name: name,
