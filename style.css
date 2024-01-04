@@ -1,0 +1,123 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.headline {
+    background: #3d8cbe;
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.headtitle {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px; 
+    left: 20px;
+    top: -10px;
+    position: relative;
+}
+
+.regform {
+    width: 700px;
+    height: 800px;
+    border-radius: 5px;
+    background: #fafafa;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+}
+
+.input {
+    height: 35px;
+    width: 300px;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.input:hover {
+    border: 1px solid #8b8b8b;
+    transition-duration: 0.3s;
+}
+
+.input:focus {
+    box-shadow: 0px 0px 10px 3px #c9c9c9;
+}
+
+.signup {
+    background: #0077dd;
+    color: #ffffff;
+    font-size: 25px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+.signup:hover {
+    transition-duration: 0.3s;
+    background: #0f84ea;
+}
+
+.signup:active {
+    background: #0069c3;
+}
+
+.haveacc {
+    color: #3d8cbe; 
+    text-decoration: none;
+}
+
+.haveacc:hover {
+    transition-duration: 0.3s;
+    color: #0077dd; 
+}
+
+.haveacc:active {
+    color: #276b96;  
+}
+
+.passwordimage {
+    background: #0077dd;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.passwordimage:hover {
+    transition-duration: 0.3s;
+    background: #3d8cbe;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-size: 35px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    visibility: visible;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#loading-screen.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s linear;
+    display: flex;
+}
