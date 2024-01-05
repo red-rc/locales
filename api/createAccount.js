@@ -7,7 +7,7 @@ export default async function(req, res) {
         const response = await fetch('https://api.github.com/repos/red-rc/locales/issues', {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer ${process.env.GITHUB_API_KEY}`,
+                'Authorization': 'Bearer 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',
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
