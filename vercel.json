@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/createAccount.js": {
-      "runtime": "node@14"
-    }
-  }
-}
