@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const verifyRequest = (body, origin) => {
-  if (origin === 'https://red-rc.github.io/locales/signup.html') {
+  if (origin === 'file:///C:/Users/avira/Desktop/ressenger/signup/signup.html') {
     const { name, email, password, nickname, language, namecolor, avatar, code } = body;
     if (name && email && password && nickname && language && namecolor && avatar && code) {
       return { success: true, data: { name, email, password, nickname, language, namecolor, avatar, code } };
@@ -14,10 +14,10 @@ const verifyRequest = (body, origin) => {
 };
 
 const saveToDb = (data) => {
-    const existingData = fs.readFileSync('db.json', 'utf-8');
+    const existingData = fs.readFileSync('https://red-rc.github.io/locales/db.json', 'utf-8');
     const newData = JSON.parse(existingData || '[]');
     newData.push(data);
-    fs.writeFileSync('db.json', JSON.stringify(newData, null, 2), 'utf-8');
+    fs.writeFileSync('https://red-rc.github.io/locales/db.json', JSON.stringify(newData, null, 2), 'utf-8');
     return true; 
 };
 
