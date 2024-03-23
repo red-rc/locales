@@ -87,7 +87,7 @@ document.getElementById('passwordimage').onclick = function() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer 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`
+            'Authorization': `Bearer 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`
         },
         body: JSON.stringify(dataObject),
     });
