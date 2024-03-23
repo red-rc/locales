@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ressenger - Sign Up</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.12/dist/umd/i18next.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.0/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/i18next-xhr-backend@3.2.2/dist/umd/i18nextXHRBackend.min.js"></script>
+    </head>
+    <body>
+        <div class="headline"><p class="headtitle">Ressenger</p></div>
+        <center>
+            <div class="regform">
+                <p data-i18n="welcome" style="position: relative; top: 20px; font-size: 35px;">Welcome to Ressenger</p>
+                <p data-i18n="name">Username:</p>
+                <p><input data-i18n="namein" class="input" id="name" placeholder="Enter your username"></p>
+                <p data-i18n="email">E-mail:</p>
+                <p><input data-i18n="emailin" class="input" id="email" placeholder="Enter your e-mail"></p>
+                <p data-i18n="nick">Nickname:</p>
+                <p><input data-i18n="nickin" class="input" id="nick" placeholder="Enter your nickname"></p>
+                <p data-i18n="pass">Password:</p>
+                <p><input data-i18n="nickin" class="input" id="pass" placeholder="Enter your password"></p>
+                <p data-i18n="cpass">Confirm password:</p>
+                <p><input data-i18n="cpassin" class="input" id="cpass" placeholder="Enter your password"></p>
+                <p><button data-i18n="signup" class="signup" id="signup"><a style="color: #ffffff; text-decoration: none;">Sign up</a></button></p>
+                <div id="attention"></div>
+                <p><a data-i18n="haveacc" style="color: #3d8cbe; text-decoration: none;" href="signin.html">Already have an account?</a></p>
+            </div>
+        </center>
+        <script src="script.js"></script>
+         <script>
+            i18next.use(i18nextBrowserLanguageDetector).use(i18nextXHRBackend).init({
+                backend: {
+                    loadPath: 'locales/en.json'
+                },
+                fallbackLng: 'en',
+                debug: true
+            }, function(err, t) {
+                updateContent();
+            });
+
+            function updateContent() {
+                document.body.querySelectorAll('[data-i18n]').forEach(function(element) {
+                    const key = element.getAttribute('data-i18n');
+                    element.textContent = i18next.t(key);
+                });
+            }
+        </script>
+    </body>
+</html>
